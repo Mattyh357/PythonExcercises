@@ -14,4 +14,4 @@ age = int(input("and your age: "))
 year = str((now.year - age) + 100)
 
 #output
-print("Hello " + name + "you're gonna be 100 in  " + year)
+print("Hello {name} you're gonna be 100 in {year}".format(name, year))
